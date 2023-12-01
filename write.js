@@ -1,0 +1,5 @@
+var fs = require('fs')
+
+fs.writeFile('about.js','console.log("done")', function(err){
+    console.log("Data Saved")
+})
